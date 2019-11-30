@@ -5,6 +5,26 @@
  * contributions from numerous individuals and organizations.
  * Please see the COPYING and CONTRIBUTORS files for details.
  */
+First of all build the environment
+
+sudo apt-get -y install devscripts build-essential fakeroot cdbs debhelper dh-apparmor dh-autoreconf
+
+sudo apt-get -y install \
+    libsasl2-dev \
+    libxml2-dev \
+    libdb-dev \
+    libkrb5-dev \
+    nettle-dev \
+    libnetfilter-conntrack-dev \
+    libpam0g-dev \
+    libldap2-dev \
+    libcppunit-dev \
+    libexpat1-dev \
+    libcap2-dev \
+    libltdl-dev \
+    libssl-dev \
+    libdbi-perl
+
 
 To build and install the Squid Cache, type:
 
