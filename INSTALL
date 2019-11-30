@@ -28,6 +28,9 @@ sudo apt-get -y install \
 
 To build and install the Squid Cache, type:
 
+For SSL support  
+	% ./configure -with-openssl -enable-ssl-crtd
+Without SSL support	
 	% ./configure --prefix=/usr/local/squid
         % make all
         % make install
